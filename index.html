@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neki, layer by layer</title>
+<meta name="description" content="An interactive, unofficial explainer of PlanetScale Neki's architecture. Every layer has its own simulation.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='4' y='5' width='24' height='6' rx='2' fill='%232450B8'/%3E%3Crect x='4' y='13' width='24' height='6' rx='2' fill='%2316181D'/%3E%3Crect x='4' y='21' width='24' height='6' rx='2' fill='%23B4500F'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+<script type="module" src="js/app.js"></script>
+</head>
+<body>
+<a class="skip" href="#stage">Skip to the simulation</a>
+<header class="site-head">
+  <div class="site-head__inner">
+    <a class="brand" href="#/overview">
+      <svg width="22" height="22" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="5" width="24" height="6" rx="2" fill="var(--blue)"/><rect x="4" y="13" width="24" height="6" rx="2" fill="var(--ink)"/><rect x="4" y="21" width="24" height="6" rx="2" fill="var(--orange)"/></svg>
+      <span>Neki, layer by layer</span>
+    </a>
+    <div class="sim-controls" role="group" aria-label="Simulation controls">
+      <button type="button" class="btn btn--ghost" id="pause-btn" aria-pressed="false">Pause</button>
+      <div class="segmented" id="speed" role="group" aria-label="Simulation speed"></div>
+    </div>
+  </div>
+  <nav class="stage-nav" aria-label="Stages"><ol id="stage-nav"></ol></nav>
+</header>
+<main id="stage" tabindex="-1"></main>
+<footer class="site-foot">
+  <p>Unofficial explainer built from PlanetScale's public <a href="https://planetscale.com/docs/neki">Neki documentation</a>. Not affiliated with PlanetScale. The simulations simplify real behaviour, and their numbers are illustrative.</p>
+</footer>
+</body>
+</html>
