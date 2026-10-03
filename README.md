@@ -4,7 +4,7 @@ An interactive, unofficial explainer of [PlanetScale Neki](https://planetscale.c
 
 **Live site:** https://rhzs.github.io/neki-layers/
 
-> Status: the overview and the data topology stage are live. The other stages are being built.
+> Status: stages 0–3 (overview, client, routing, data topology) are live. Stages 4–7 are being built.
 
 | Stage | Layer | What you can do |
 |---|---|---|
