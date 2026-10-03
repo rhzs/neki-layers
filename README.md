@@ -4,8 +4,6 @@ An interactive, unofficial explainer of [PlanetScale Neki](https://planetscale.c
 
 **Live site:** https://rhzs.github.io/neki-layers/
 
-> Status: stages 0–5 are live. Stages 6 (Replicator) and 7 (Platform) are being built.
-
 | Stage | Layer | What you can do |
 |---|---|---|
 | 0 · Overview | All layers | Watch queries, health checks and reconciles flow; trace one query down the layers |
